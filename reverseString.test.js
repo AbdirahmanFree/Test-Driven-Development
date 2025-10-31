@@ -9,4 +9,10 @@ test('palindrome', ()=> {
 
 test('none palindrome words',()=> {
     expect(reverseString('hello')).toBe('olleh')
+    expect(reverseString('mike')).toBe('ekim')
+    expect(reverseString('IkRh5')).toBe('5hRkI')
+})
+
+test('empty string', ()=> {
+    expect(reverseString('')).toBe('')
 })
