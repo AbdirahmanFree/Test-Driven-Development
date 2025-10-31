@@ -1,0 +1,23 @@
+{
+  "name": "test-driven-development",
+  "version": "1.0.0",
+  "description": "Test Driven Development Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdirahmanFree/Test-Driven-Development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdirahmanFree/Test-Driven-Development/issues"
+  },
+  "homepage": "https://github.com/AbdirahmanFree/Test-Driven-Development#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
