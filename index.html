@@ -8,10 +8,15 @@
 <body>
     <script>
         
-    let revString = 'hello'.split('').reduce((string, value)=> {
-        return value.concat(string)
-    },"")
-    console.log(revString)
+    
+        let lower = []
+        let upper = []
+        for (let i = 0; i<26;i++){
+            lower.push(String.fromCharCode("a".charCodeAt(0)+i))
+            upper.push(String.fromCharCode("A".charCodeAt(0)+i))
+        }
+        console.log(lower)
+        console.log(upper)
     </script>
 </body>
 </html>
