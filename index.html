@@ -9,14 +9,12 @@
     <script>
         
     
-        let lower = []
-        let upper = []
-        for (let i = 0; i<26;i++){
-            lower.push(String.fromCharCode("a".charCodeAt(0)+i))
-            upper.push(String.fromCharCode("A".charCodeAt(0)+i))
+        function maxArr(array){
+            return array.reduce((max, val) =>{
+                return val > max ? val : max
+            }, array[0])
         }
-        console.log(lower)
-        console.log(upper)
+        console.log(maxArr([1,2,3,4,5]))
     </script>
 </body>
 </html>
